@@ -7,7 +7,7 @@ router.get('/', mainController.home);
 
 router.get('/cadastrar-pedidos', mainController.cadastrar_pedidos)
 
-router.get('/itens-pedidos', mainController.itens_pedidos)
+router.get('/pedido/:id', mainController.pedido)
 
 router.get('/area-pedidos', mainController.area_pedidos)
 
